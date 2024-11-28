@@ -1,6 +1,10 @@
-#Sum of all elements in a list
-numbers = [10, 20, 30, 40, 50]
-total_sum = 0
-for num in numbers:
-    total_sum += num
-print(f"The sum of all elements in the list is {total_sum}")
+#1. Nested Dictionary: Accessing Values in Nested Dictionaries
+
+#Problem: You have a dictionary with nested dictionaries. You need to access values from the nested dictionaries.
+
+my_dict = {
+    'person1': {'name': 'John', 'age': 25},
+    'person2': {'name': 'Alice', 'age': 30}
+}
+print(my_dict['person1']['name'])  # Output: John
+print(my_dict['person2']['age'])   # Output: 30
