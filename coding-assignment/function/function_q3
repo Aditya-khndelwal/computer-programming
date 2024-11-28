@@ -1,0 +1,7 @@
+
+Q3 = Create a function square that takes a number and returns its square.
+=>
+def square(x):
+    print(x ** 2)
+number = int(input("enter the number:"))
+square(number)
